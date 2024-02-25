@@ -1,0 +1,11 @@
+depth_first_search:
+  title:
+    ja: 深さ優先探索を使ってファイルツリーから特定のファイルを見つけよう
+  check_items:
+    depth_first_search:
+      title:
+        ja: ファイルツリーから特定のファイルがあるか判定できる
+  task_items:
+    depth_first_search:
+      title:
+        ja: 深さ優先探索を使ってファイルツリーから特定のファイルを見つけよう

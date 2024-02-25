@@ -1,0 +1,44 @@
+{
+  "situations": [
+    {
+      "generationConfig": {
+        "flags": [
+          "SITUATION=FIBONACCHI_NUMBER"
+        ]
+      },
+      "id": "GfCrhfklyAJ6VlaUQK2EZ",
+      "rootDirName": "algorithm",
+      "translationFile": "./tasks/fibonacchi_number/locales/translations.yml"
+    },
+    {
+      "generationConfig": {
+        "flags": [
+          "SITUATION=BINARY_SEARCH"
+        ]
+      },
+      "id": "ENSgbjeQeq0sHc8rZ9ztV",
+      "rootDirName": "algorithm",
+      "translationFile": "./tasks/binary_search/locales/translations.yml"
+    },
+    {
+      "generationConfig": {
+        "flags": [
+          "SITUATION=DEPTH_FIRST_SEARCH"
+        ]
+      },
+      "id": "o25MPu9zYLVSQNHya9q1k",
+      "rootDirName": "algorithm",
+      "translationFile": "./tasks/depth_first_search/locales/translations.yml"
+    },
+    {
+      "generationConfig": {
+        "flags": [
+          "SITUATION=BREADTH_FIRST_SEARCH"
+        ]
+      },
+      "id": "qICAze1gYs6Qlwe5AfNLR",
+      "rootDirName": "algorithm",
+      "translationFile": "./tasks/breadth_first_search/locales/translations.yml"
+    }
+  ]
+}

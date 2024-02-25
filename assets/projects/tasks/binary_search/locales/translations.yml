@@ -1,0 +1,11 @@
+binary_search:
+  title:
+    ja: 二分探索を使って貴重な宝石を探そう
+  check_items:
+    binary_search:
+      title:
+        ja: 二分探索で値のインデックスを返せる
+  task_items:
+    binary_search:
+      title:
+        ja: 二分探索を使って貴重な宝石を探そう

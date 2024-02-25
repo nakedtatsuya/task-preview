@@ -1,0 +1,8 @@
+#joy:if SITUATION == BREADTH_FIRST_SEARCH
+0 4
+1
+0 3
+4
+1
+2
+#joy:endif

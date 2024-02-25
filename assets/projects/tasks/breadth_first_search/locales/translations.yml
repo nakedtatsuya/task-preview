@@ -1,0 +1,11 @@
+breadth_first_search:
+  title:
+    ja: 幅優先探索を使って友達とのつながりの最短距離を計算しよう
+  check_items:
+    breadth_first_search:
+      title:
+        ja: 幅優先探索を使って友達とのつながりの最短距離を計算できる
+  task_items:
+    breadth_first_search:
+      title:
+        ja: 幅優先探索を使って友達とのつながりの最短距離を計算しよう

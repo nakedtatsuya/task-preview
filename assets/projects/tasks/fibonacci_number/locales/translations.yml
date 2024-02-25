@@ -1,0 +1,11 @@
+fibonacci_number:
+  title:
+    ja: いろんな方法でフィボナッチ数を計算しよう
+  check_items:
+    fibonacci_number:
+      title:
+        ja: いろんな実装でフィボナッチ数列が計算できる
+  task_items:
+    fibonacci_number:
+      title:
+        ja: いろんな方法でフィボナッチ数を計算しよう
