@@ -1,0 +1,27 @@
+{
+  "$id": "https://path.progate.com/json_schemas/default_visibility",
+  "title": "defaultVisibility",
+  "description": "特定のコンテンツ(例:タスク)の、特定のlocaleにおける各環境のvisibility",
+  "type": "object",
+  "properties": {
+    "locale": {
+      "$ref": "./locale.schema.json"
+    },
+    "development": {
+      "type": "boolean"
+    },
+    "staging": {
+      "type": "boolean"
+    },
+    "production": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "locale",
+    "development",
+    "staging",
+    "production"
+  ],
+  "additionalProperties": false
+}

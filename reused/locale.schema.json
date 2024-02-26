@@ -1,0 +1,9 @@
+{
+  "$id": "https://path.progate.com/json_schemas/locale",
+  "title": "locale",
+  "description": "コンテンツで対応されているlocale",
+  "type": "string",
+  "enum": [
+    "ja"
+  ]
+}

@@ -1,11 +1,9 @@
-// 指定されたJSONスキーマファイルを読み込み、スキーマ情報を返す
-// -----------------------------------------------------------------------------
+import {Task} from "../types/task-schema";
 import { readFileSync } from 'fs';
+import commentJson from 'comment-json';
 
-import { join } from 'path';
-
-
-export const readProject = (projectPath: string): string => {
-  return ''
-
+export const readProject = (projectPath: string): Task => {
+  const fileContent = readFileSync(projectPath, 'utf-8');
+  const jsonData = commentJson.parse(fileContent);
+  return jsonData as unknown as Task;
 }

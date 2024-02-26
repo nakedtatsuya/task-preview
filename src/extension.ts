@@ -2,6 +2,7 @@
 // Import the module and reference it with the alias vscode in your code below
 import vscode from 'vscode';
 import { display } from './lib/display';
+import { readProject } from './lib/project_reader';
 
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
@@ -24,9 +25,17 @@ export function activate(context: vscode.ExtensionContext) {
 	// Now provide the implementation of the command with registerCommand
 	// The commandId parameter must match the command field in package.json
 	let displayCommand = vscode.commands.registerCommand('progate-path-task-preview.display', () => {
-		// The code you place here will be executed every time your command is executed
-		// Display a message box to the user
-		display('<h1>Hello World</h1>');
+		const activeEditor = vscode.window.activeTextEditor;
+		if (activeEditor) {
+				const filePath = activeEditor.document.uri.fsPath;
+				const task = readProject(filePath);
+				vscode.window.showInformationMessage(`Current file path is: ${filePath}`);
+				// The code you place here will be executed every time your command is executed
+				// Display a message box to the user
+				display(task.id);
+		} else {
+				vscode.window.showInformationMessage("No file is currently active.");
+		}
 	});
 
 	context.subscriptions.push(disposable, displayCommand);
