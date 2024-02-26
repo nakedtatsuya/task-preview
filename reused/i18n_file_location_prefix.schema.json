@@ -1,7 +1,7 @@
 {
-  "$id": "https://path.progate.com/json_schemas/i18n_file_location_prefix",
-  "title": "i18nFileLocationPrefix",
-  "description": "localizeされたテキストファイルへの相対パス。現在はマークダウンファイルのみサポートされている。末尾の`_${locale}.md`は省略する。`./`か`../`で始まる。",
-  "type": "string",
-  "pattern": "^(?:../|./)"
+	"$id": "https://path.progate.com/json_schemas/i18n_file_location_prefix",
+	"title": "i18nFileLocationPrefix",
+	"description": "localizeされたテキストファイルへの相対パス。現在はマークダウンファイルのみサポートされている。末尾の`_${locale}.md`は省略する。`./`か`../`で始まる。",
+	"type": "string",
+	"pattern": "^(?:../|./)"
 }

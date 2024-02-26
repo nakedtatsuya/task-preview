@@ -1,211 +1,211 @@
 {
-  "id": "HbOiiQseFCWI5uLOZtq2R", // fibonacci_number
-  "situationId": "GfCrhfklyAJ6VlaUQK2EZ",
-  "type": {
-    "value": "PRACTICAL",
-    "category": "feature_backend"
-  },
-  "title": "fibonacci_number.title",
-  "translationFiles": [
-    "../../common/locales/translations.yml",
-    "./fibonacci_number/locales/translations.yml"
-  ],
-  "explainer": "./fibonacci_number/explainer",
-  "menu": {
-    "overviewItem": "./fibonacci_number/overview",
-    "setUpItem": "./fibonacci_number/setup",
-    "specItems": [],
-    "taskItems": [
-      {
-        "anchorLink": "fibonacci_number",
-        "description": "./fibonacci_number/task_items/fibonacci_number",
-        "title": "fibonacci_number.task_items.fibonacci_number.title"
-      }
-    ]
-  },
-  "checkItems": [
-    {
-      "adviceItems": [
-        {
-          "id": "LXX7oGqnRJtoEjE0qsNkJ",
-          "title": "common.check_items.check_env.advice_items.description.title",
-          "description": "../../common/advices/check_env/description"
-        },
-        {
-          "id": "lKnJH5Q6HMrco05OSt3bS",
-          "title": "common.check_items.check_env.advice_items.not_installed.title",
-          "description": "../../common/advices/check_env/not_installed"
-        },
-        {
-          "id": "PmBRGRpl7v4w5p1IDcCGw",
-          "title": "common.check_items.check_env.advice_items.version_outdated.title",
-          "description": "../../common/advices/check_env/version_outdated"
-        },
-        {
-          "id": "QQeaRrEYSqk5MyQ54dGy9",
-          "title": "common.check_items.check_env.advice_items.not_installed_git.title",
-          "description": "../../common/advices/check_env/not_installed_git"
-        },
-        {
-          "id": "1b0PU8Dl8QJ4g1GcM9VbK",
-          "title": "common.check_items.check_env.advice_items.reinstall_packages.title",
-          "description": "../../common/advices/jest_puppeteer/reinstall_packages"
-        }
-      ],
-      "commands": [
-        {
-          "id": "O7kwZgMWnjbKUQ1O4doDQ",
-          "commandLine": "progate diagnose",
-          "arielCommandExpectation": {
-            "isSuccessWhenAnswerOff": true,
-            "isSuccessWhenAnswerOn": true
-          }
-        }
-      ],
-      "description": "common.check_items.check_env.title",
-      "id": "D2ByUddfUC1BCjDQbd5uQ"
-    },
-    {
-      "adviceItems": [],
-      "commands": [
-        {
-          "id": "Xn5ovwxiIqZrTLW1Y96jf",
-          "commandLine": "npm run test:typecheck",
-          "arielCommandExpectation": {
-            "isSuccessWhenAnswerOff": false,
-            "isSuccessWhenAnswerOn": true
-          }
-        }
-      ],
-      "description": "common.check_items.typecheck.title",
-      "id": "gPuxhkuJ3uifpp1JBkSIU"
-    },
-    {
-      "adviceItems": [
-        {
-          "id": "cRq4PwnujSvTbI3MtiryM",
-          "title": "common.check_items.check_lint.advice_items.description.title",
-          "description": "../../common/advices/check_lint/description"
-        },
-        {
-          "id": "CiTiymhlLyWWep72CmWDq",
-          "title": "common.check_items.check_lint.advice_items.auto_fix.title",
-          "description": "../../common/advices/check_lint/auto_fix"
-        },
-        {
-          "id": "YsMTqs9fSdYAr7EIJ9cPq",
-          "title": "common.check_items.check_lint.advice_items.manual_fix.title",
-          "description": "../../common/advices/check_lint/manual_fix"
-        },
-        {
-          "id": "DovxvVumUe0r6jgcAOsVh",
-          "title": "common.check_items.check_lint.advice_items.rule.title",
-          "description": "../../common/advices/check_lint/rule"
-        }
-      ],
-      "commands": [
-        {
-          "id": "DZpsp61Ye0zwMeW4HUS5Q",
-          "commandLine": "npm run lint:check",
-          "arielCommandExpectation": {
-            "isSuccessWhenAnswerOff": false,
-            "isSuccessWhenAnswerOn": true
-          }
-        },
-        {
-          "id": "cezkoYMgV2dX2kIXjNnbS",
-          "commandLine": "npm run format:check",
-          "arielCommandExpectation": {
-            "isSuccessWhenAnswerOff": false,
-            "isSuccessWhenAnswerOn": true
-          }
-        }
-      ],
-      "description": "common.check_items.check_lint.title",
-      "id": "Gr9WaQIDjIA0W_GcBKocC"
-    },
-    {
-      "adviceItems": [],
-      "commands": [
-        {
-          "id": "UeEYHUA4mkBjpHLB4p8P7",
-          "commandLine": "npm run test:loop",
-          "arielCommandExpectation": {
-            "isSuccessWhenAnswerOff": false,
-            "isSuccessWhenAnswerOn": true
-          }
-        },
-        {
-          "id": "NSOaSLY4toPrM4tzvaA5r",
-          "commandLine": "npm run test:recursive",
-          "arielCommandExpectation": {
-            "isSuccessWhenAnswerOff": false,
-            "isSuccessWhenAnswerOn": true
-          }
-        },
-        {
-          "id": "PNbQg4bYDbrPxz5AbYIrx",
-          "commandLine": "npm run test:memo",
-          "arielCommandExpectation": {
-            "isSuccessWhenAnswerOff": false,
-            "isSuccessWhenAnswerOn": true
-          }
-        },
-        {
-          "id": "RQGIotBNCyKGcxv5EHF0e",
-          "commandLine": "npm run test:dynamic_programming",
-          "arielCommandExpectation": {
-            "isSuccessWhenAnswerOff": false,
-            "isSuccessWhenAnswerOn": true
-          }
-        }
-      ],
-      "description": "fibonacci_number.check_items.fibonacci_number.title",
-      "id": "B1B9FZgJcKZA1kyNEjCGf"
-    }
-  ],
-  "taskNoteAdviceItems": [
-    {
-      "id": "4F5bISrKB17l5qW82whZj",
-      "title": "common.pull_request.advice_items.description.title",
-      "description": "../../common/advices/pull_request/description"
-    },
-    {
-      "id": "ewemFevNzFuj4VR1nm5TB",
-      "title": "common.pull_request.advice_items.objective.title",
-      "description": "../../common/advices/pull_request/objective"
-    },
-    {
-      "id": "5wgzJnviKLR1ZzlRBr3cY",
-      "title": "common.pull_request.advice_items.change.title",
-      "description": "../../common/advices/pull_request/change"
-    },
-    {
-      "id": "d2lG0n1HndYPhQUZBfJVy",
-      "title": "common.pull_request.advice_items.other.title",
-      "description": "../../common/advices/pull_request/other"
-    }
-  ],
-  "prerequisiteKnowledge": {
-    "accessLimitedMarkdown": "./fibonacci_number/prerequisite_knowledge/access_limited",
-    "taskIds": [
-      "_z2u45qMAiAoBj8qo5uDH" // ts_lint_and_format
-    ]
-  },
-  "lifecycleStages": {
-    "development": "active",
-    "staging": "active",
-    "production": "active"
-  },
-  "arielOption": {
-    "setUpCommands": [
-      {
-        "commandLine": "npm clean-install"
-      }
-    ]
-  },
-  "organization": {
-    "type": "official",
-    "name": "common.organization.official"
-  }
+	"id": "HbOiiQseFCWI5uLOZtq2R", // fibonacci_number
+	"situationId": "GfCrhfklyAJ6VlaUQK2EZ",
+	"type": {
+		"value": "PRACTICAL",
+		"category": "feature_backend"
+	},
+	"title": "fibonacci_number.title",
+	"translationFiles": [
+		"../../common/locales/translations.yml",
+		"./fibonacci_number/locales/translations.yml"
+	],
+	"explainer": "./fibonacci_number/explainer",
+	"menu": {
+		"overviewItem": "./fibonacci_number/overview",
+		"setUpItem": "./fibonacci_number/setup",
+		"specItems": [],
+		"taskItems": [
+			{
+				"anchorLink": "fibonacci_number",
+				"description": "./fibonacci_number/task_items/fibonacci_number",
+				"title": "fibonacci_number.task_items.fibonacci_number.title"
+			}
+		]
+	},
+	"checkItems": [
+		{
+			"adviceItems": [
+				{
+					"id": "LXX7oGqnRJtoEjE0qsNkJ",
+					"title": "common.check_items.check_env.advice_items.description.title",
+					"description": "../../common/advices/check_env/description"
+				},
+				{
+					"id": "lKnJH5Q6HMrco05OSt3bS",
+					"title": "common.check_items.check_env.advice_items.not_installed.title",
+					"description": "../../common/advices/check_env/not_installed"
+				},
+				{
+					"id": "PmBRGRpl7v4w5p1IDcCGw",
+					"title": "common.check_items.check_env.advice_items.version_outdated.title",
+					"description": "../../common/advices/check_env/version_outdated"
+				},
+				{
+					"id": "QQeaRrEYSqk5MyQ54dGy9",
+					"title": "common.check_items.check_env.advice_items.not_installed_git.title",
+					"description": "../../common/advices/check_env/not_installed_git"
+				},
+				{
+					"id": "1b0PU8Dl8QJ4g1GcM9VbK",
+					"title": "common.check_items.check_env.advice_items.reinstall_packages.title",
+					"description": "../../common/advices/jest_puppeteer/reinstall_packages"
+				}
+			],
+			"commands": [
+				{
+					"id": "O7kwZgMWnjbKUQ1O4doDQ",
+					"commandLine": "progate diagnose",
+					"arielCommandExpectation": {
+						"isSuccessWhenAnswerOff": true,
+						"isSuccessWhenAnswerOn": true
+					}
+				}
+			],
+			"description": "common.check_items.check_env.title",
+			"id": "D2ByUddfUC1BCjDQbd5uQ"
+		},
+		{
+			"adviceItems": [],
+			"commands": [
+				{
+					"id": "Xn5ovwxiIqZrTLW1Y96jf",
+					"commandLine": "npm run test:typecheck",
+					"arielCommandExpectation": {
+						"isSuccessWhenAnswerOff": false,
+						"isSuccessWhenAnswerOn": true
+					}
+				}
+			],
+			"description": "common.check_items.typecheck.title",
+			"id": "gPuxhkuJ3uifpp1JBkSIU"
+		},
+		{
+			"adviceItems": [
+				{
+					"id": "cRq4PwnujSvTbI3MtiryM",
+					"title": "common.check_items.check_lint.advice_items.description.title",
+					"description": "../../common/advices/check_lint/description"
+				},
+				{
+					"id": "CiTiymhlLyWWep72CmWDq",
+					"title": "common.check_items.check_lint.advice_items.auto_fix.title",
+					"description": "../../common/advices/check_lint/auto_fix"
+				},
+				{
+					"id": "YsMTqs9fSdYAr7EIJ9cPq",
+					"title": "common.check_items.check_lint.advice_items.manual_fix.title",
+					"description": "../../common/advices/check_lint/manual_fix"
+				},
+				{
+					"id": "DovxvVumUe0r6jgcAOsVh",
+					"title": "common.check_items.check_lint.advice_items.rule.title",
+					"description": "../../common/advices/check_lint/rule"
+				}
+			],
+			"commands": [
+				{
+					"id": "DZpsp61Ye0zwMeW4HUS5Q",
+					"commandLine": "npm run lint:check",
+					"arielCommandExpectation": {
+						"isSuccessWhenAnswerOff": false,
+						"isSuccessWhenAnswerOn": true
+					}
+				},
+				{
+					"id": "cezkoYMgV2dX2kIXjNnbS",
+					"commandLine": "npm run format:check",
+					"arielCommandExpectation": {
+						"isSuccessWhenAnswerOff": false,
+						"isSuccessWhenAnswerOn": true
+					}
+				}
+			],
+			"description": "common.check_items.check_lint.title",
+			"id": "Gr9WaQIDjIA0W_GcBKocC"
+		},
+		{
+			"adviceItems": [],
+			"commands": [
+				{
+					"id": "UeEYHUA4mkBjpHLB4p8P7",
+					"commandLine": "npm run test:loop",
+					"arielCommandExpectation": {
+						"isSuccessWhenAnswerOff": false,
+						"isSuccessWhenAnswerOn": true
+					}
+				},
+				{
+					"id": "NSOaSLY4toPrM4tzvaA5r",
+					"commandLine": "npm run test:recursive",
+					"arielCommandExpectation": {
+						"isSuccessWhenAnswerOff": false,
+						"isSuccessWhenAnswerOn": true
+					}
+				},
+				{
+					"id": "PNbQg4bYDbrPxz5AbYIrx",
+					"commandLine": "npm run test:memo",
+					"arielCommandExpectation": {
+						"isSuccessWhenAnswerOff": false,
+						"isSuccessWhenAnswerOn": true
+					}
+				},
+				{
+					"id": "RQGIotBNCyKGcxv5EHF0e",
+					"commandLine": "npm run test:dynamic_programming",
+					"arielCommandExpectation": {
+						"isSuccessWhenAnswerOff": false,
+						"isSuccessWhenAnswerOn": true
+					}
+				}
+			],
+			"description": "fibonacci_number.check_items.fibonacci_number.title",
+			"id": "B1B9FZgJcKZA1kyNEjCGf"
+		}
+	],
+	"taskNoteAdviceItems": [
+		{
+			"id": "4F5bISrKB17l5qW82whZj",
+			"title": "common.pull_request.advice_items.description.title",
+			"description": "../../common/advices/pull_request/description"
+		},
+		{
+			"id": "ewemFevNzFuj4VR1nm5TB",
+			"title": "common.pull_request.advice_items.objective.title",
+			"description": "../../common/advices/pull_request/objective"
+		},
+		{
+			"id": "5wgzJnviKLR1ZzlRBr3cY",
+			"title": "common.pull_request.advice_items.change.title",
+			"description": "../../common/advices/pull_request/change"
+		},
+		{
+			"id": "d2lG0n1HndYPhQUZBfJVy",
+			"title": "common.pull_request.advice_items.other.title",
+			"description": "../../common/advices/pull_request/other"
+		}
+	],
+	"prerequisiteKnowledge": {
+		"accessLimitedMarkdown": "./fibonacci_number/prerequisite_knowledge/access_limited",
+		"taskIds": [
+			"_z2u45qMAiAoBj8qo5uDH" // ts_lint_and_format
+		]
+	},
+	"lifecycleStages": {
+		"development": "active",
+		"staging": "active",
+		"production": "active"
+	},
+	"arielOption": {
+		"setUpCommands": [
+			{
+				"commandLine": "npm clean-install"
+			}
+		]
+	},
+	"organization": {
+		"type": "official",
+		"name": "common.organization.official"
+	}
 }

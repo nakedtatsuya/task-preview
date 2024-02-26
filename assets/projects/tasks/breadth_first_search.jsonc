@@ -1,187 +1,187 @@
 {
-  "id": "l672pGZqaVBaIWwBbAEsA", // breadth_first_search
-  "situationId": "qICAze1gYs6Qlwe5AfNLR",
-  "type": {
-    "value": "PRACTICAL",
-    "category": "feature_backend"
-  },
-  "title": "breadth_first_search.title",
-  "translationFiles": [
-    "../../common/locales/translations.yml",
-    "./breadth_first_search/locales/translations.yml"
-  ],
-  "explainer": "./breadth_first_search/explainer",
-  "menu": {
-    "overviewItem": "./breadth_first_search/overview",
-    "setUpItem": "./breadth_first_search/setup",
-    "specItems": [],
-    "taskItems": [
-      {
-        "anchorLink": "breadth-first-search",
-        "description": "./breadth_first_search/task_items/breadth_first_search",
-        "title": "breadth_first_search.task_items.breadth_first_search.title"
-      }
-    ]
-  },
-  "checkItems": [
-    {
-      "adviceItems": [
-        {
-          "id": "q61P3eyWsSCgDRmDQ5oeT",
-          "title": "common.check_items.check_env.advice_items.description.title",
-          "description": "../../common/advices/check_env/description"
-        },
-        {
-          "id": "cZE5xXq8Gu5ELNBTN9DB5",
-          "title": "common.check_items.check_env.advice_items.not_installed.title",
-          "description": "../../common/advices/check_env/not_installed"
-        },
-        {
-          "id": "hIwzgkivswwKZU51auFgB",
-          "title": "common.check_items.check_env.advice_items.version_outdated.title",
-          "description": "../../common/advices/check_env/version_outdated"
-        },
-        {
-          "id": "YNJskqmOpWziFrV3ezT6B",
-          "title": "common.check_items.check_env.advice_items.not_installed_git.title",
-          "description": "../../common/advices/check_env/not_installed_git"
-        },
-        {
-          "id": "xaKjJvfz4Celj4CR2hGPu",
-          "title": "common.check_items.check_env.advice_items.reinstall_packages.title",
-          "description": "../../common/advices/jest_puppeteer/reinstall_packages"
-        }
-      ],
-      "commands": [
-        {
-          "id": "gnMR9nhGiXmgPxYllEJza",
-          "commandLine": "progate diagnose",
-          "arielCommandExpectation": {
-            "isSuccessWhenAnswerOff": true,
-            "isSuccessWhenAnswerOn": true
-          }
-        }
-      ],
-      "description": "common.check_items.check_env.title",
-      "id": "rFkS3D7BwmXyLgIyDeOd6"
-    },
-    {
-      "adviceItems": [],
-      "commands": [
-        {
-          "id": "1gpxmtiR32nwpxOzCWi1r",
-          "commandLine": "npm run test:typecheck",
-          "arielCommandExpectation": {
-            "isSuccessWhenAnswerOff": false,
-            "isSuccessWhenAnswerOn": true
-          }
-        }
-      ],
-      "description": "common.check_items.typecheck.title",
-      "id": "yDVAuhIeViaUjWw1yOHpN"
-    },
-    {
-      "adviceItems": [
-        {
-          "id": "M7kPJiGPAB0Fi7kT7prFr",
-          "title": "common.check_items.check_lint.advice_items.description.title",
-          "description": "../../common/advices/check_lint/description"
-        },
-        {
-          "id": "GiuTrGyYKGnf8K2BRUyhX",
-          "title": "common.check_items.check_lint.advice_items.auto_fix.title",
-          "description": "../../common/advices/check_lint/auto_fix"
-        },
-        {
-          "id": "g2jsT0oGDsZTTnPkwTP0J",
-          "title": "common.check_items.check_lint.advice_items.manual_fix.title",
-          "description": "../../common/advices/check_lint/manual_fix"
-        },
-        {
-          "id": "RIJbVTwg20lSZPpJJD0g9",
-          "title": "common.check_items.check_lint.advice_items.rule.title",
-          "description": "../../common/advices/check_lint/rule"
-        }
-      ],
-      "commands": [
-        {
-          "id": "M5qdRsIAGICJH7nf98047",
-          "commandLine": "npm run lint:check",
-          "arielCommandExpectation": {
-            "isSuccessWhenAnswerOff": false,
-            "isSuccessWhenAnswerOn": true
-          }
-        },
-        {
-          "id": "iDgbhdOJVXHEAzul3K_G3",
-          "commandLine": "npm run format:check",
-          "arielCommandExpectation": {
-            "isSuccessWhenAnswerOff": false,
-            "isSuccessWhenAnswerOn": true
-          }
-        }
-      ],
-      "description": "common.check_items.check_lint.title",
-      "id": "kEFj51RE6Cf694vrj9d8o"
-    },
-    {
-      "adviceItems": [],
-      "commands": [
-        {
-          "id": "7zB8RLz9BjtRcpNiu8dtC",
-          "commandLine": "npm run test:breadth_first_search",
-          "arielCommandExpectation": {
-            "isSuccessWhenAnswerOff": false,
-            "isSuccessWhenAnswerOn": true
-          }
-        }
-      ],
-      "description": "breadth_first_search.check_items.breadth_first_search.title",
-      "id": "lUP3Yo1Vn8BqIZ7iMSXB9"
-    }
-  ],
-  "taskNoteAdviceItems": [
-    {
-      "id": "wgVT1cpwp52r34Yv5oAJe",
-      "title": "common.pull_request.advice_items.description.title",
-      "description": "../../common/advices/pull_request/description"
-    },
-    {
-      "id": "jC4cvZxVVmP0YYExB5Lxa",
-      "title": "common.pull_request.advice_items.objective.title",
-      "description": "../../common/advices/pull_request/objective"
-    },
-    {
-      "id": "uonyM9n2SIoeDkrXeWd96",
-      "title": "common.pull_request.advice_items.change.title",
-      "description": "../../common/advices/pull_request/change"
-    },
-    {
-      "id": "50Uv1tjEAXW5rPYQbE8jr",
-      "title": "common.pull_request.advice_items.other.title",
-      "description": "../../common/advices/pull_request/other"
-    }
-  ],
-  "prerequisiteKnowledge": {
-    "accessLimitedMarkdown": "./breadth_first_search/prerequisite_knowledge/access_limited",
-    "taskIds": [
-      "_z2u45qMAiAoBj8qo5uDH" // ts_lint_and_format
-    ]
-  },
-  "lifecycleStages": {
-    "development": "active",
-    "staging": "active",
-    "production": "active"
-  },
-  "arielOption": {
-    "setUpCommands": [
-      {
-        "commandLine": "npm clean-install"
-      }
-    ]
-  },
-  "organization": {
-    "type": "official",
-    "name": "common.organization.official"
-  }
+	"id": "l672pGZqaVBaIWwBbAEsA", // breadth_first_search
+	"situationId": "qICAze1gYs6Qlwe5AfNLR",
+	"type": {
+		"value": "PRACTICAL",
+		"category": "feature_backend"
+	},
+	"title": "breadth_first_search.title",
+	"translationFiles": [
+		"../../common/locales/translations.yml",
+		"./breadth_first_search/locales/translations.yml"
+	],
+	"explainer": "./breadth_first_search/explainer",
+	"menu": {
+		"overviewItem": "./breadth_first_search/overview",
+		"setUpItem": "./breadth_first_search/setup",
+		"specItems": [],
+		"taskItems": [
+			{
+				"anchorLink": "breadth-first-search",
+				"description": "./breadth_first_search/task_items/breadth_first_search",
+				"title": "breadth_first_search.task_items.breadth_first_search.title"
+			}
+		]
+	},
+	"checkItems": [
+		{
+			"adviceItems": [
+				{
+					"id": "q61P3eyWsSCgDRmDQ5oeT",
+					"title": "common.check_items.check_env.advice_items.description.title",
+					"description": "../../common/advices/check_env/description"
+				},
+				{
+					"id": "cZE5xXq8Gu5ELNBTN9DB5",
+					"title": "common.check_items.check_env.advice_items.not_installed.title",
+					"description": "../../common/advices/check_env/not_installed"
+				},
+				{
+					"id": "hIwzgkivswwKZU51auFgB",
+					"title": "common.check_items.check_env.advice_items.version_outdated.title",
+					"description": "../../common/advices/check_env/version_outdated"
+				},
+				{
+					"id": "YNJskqmOpWziFrV3ezT6B",
+					"title": "common.check_items.check_env.advice_items.not_installed_git.title",
+					"description": "../../common/advices/check_env/not_installed_git"
+				},
+				{
+					"id": "xaKjJvfz4Celj4CR2hGPu",
+					"title": "common.check_items.check_env.advice_items.reinstall_packages.title",
+					"description": "../../common/advices/jest_puppeteer/reinstall_packages"
+				}
+			],
+			"commands": [
+				{
+					"id": "gnMR9nhGiXmgPxYllEJza",
+					"commandLine": "progate diagnose",
+					"arielCommandExpectation": {
+						"isSuccessWhenAnswerOff": true,
+						"isSuccessWhenAnswerOn": true
+					}
+				}
+			],
+			"description": "common.check_items.check_env.title",
+			"id": "rFkS3D7BwmXyLgIyDeOd6"
+		},
+		{
+			"adviceItems": [],
+			"commands": [
+				{
+					"id": "1gpxmtiR32nwpxOzCWi1r",
+					"commandLine": "npm run test:typecheck",
+					"arielCommandExpectation": {
+						"isSuccessWhenAnswerOff": false,
+						"isSuccessWhenAnswerOn": true
+					}
+				}
+			],
+			"description": "common.check_items.typecheck.title",
+			"id": "yDVAuhIeViaUjWw1yOHpN"
+		},
+		{
+			"adviceItems": [
+				{
+					"id": "M7kPJiGPAB0Fi7kT7prFr",
+					"title": "common.check_items.check_lint.advice_items.description.title",
+					"description": "../../common/advices/check_lint/description"
+				},
+				{
+					"id": "GiuTrGyYKGnf8K2BRUyhX",
+					"title": "common.check_items.check_lint.advice_items.auto_fix.title",
+					"description": "../../common/advices/check_lint/auto_fix"
+				},
+				{
+					"id": "g2jsT0oGDsZTTnPkwTP0J",
+					"title": "common.check_items.check_lint.advice_items.manual_fix.title",
+					"description": "../../common/advices/check_lint/manual_fix"
+				},
+				{
+					"id": "RIJbVTwg20lSZPpJJD0g9",
+					"title": "common.check_items.check_lint.advice_items.rule.title",
+					"description": "../../common/advices/check_lint/rule"
+				}
+			],
+			"commands": [
+				{
+					"id": "M5qdRsIAGICJH7nf98047",
+					"commandLine": "npm run lint:check",
+					"arielCommandExpectation": {
+						"isSuccessWhenAnswerOff": false,
+						"isSuccessWhenAnswerOn": true
+					}
+				},
+				{
+					"id": "iDgbhdOJVXHEAzul3K_G3",
+					"commandLine": "npm run format:check",
+					"arielCommandExpectation": {
+						"isSuccessWhenAnswerOff": false,
+						"isSuccessWhenAnswerOn": true
+					}
+				}
+			],
+			"description": "common.check_items.check_lint.title",
+			"id": "kEFj51RE6Cf694vrj9d8o"
+		},
+		{
+			"adviceItems": [],
+			"commands": [
+				{
+					"id": "7zB8RLz9BjtRcpNiu8dtC",
+					"commandLine": "npm run test:breadth_first_search",
+					"arielCommandExpectation": {
+						"isSuccessWhenAnswerOff": false,
+						"isSuccessWhenAnswerOn": true
+					}
+				}
+			],
+			"description": "breadth_first_search.check_items.breadth_first_search.title",
+			"id": "lUP3Yo1Vn8BqIZ7iMSXB9"
+		}
+	],
+	"taskNoteAdviceItems": [
+		{
+			"id": "wgVT1cpwp52r34Yv5oAJe",
+			"title": "common.pull_request.advice_items.description.title",
+			"description": "../../common/advices/pull_request/description"
+		},
+		{
+			"id": "jC4cvZxVVmP0YYExB5Lxa",
+			"title": "common.pull_request.advice_items.objective.title",
+			"description": "../../common/advices/pull_request/objective"
+		},
+		{
+			"id": "uonyM9n2SIoeDkrXeWd96",
+			"title": "common.pull_request.advice_items.change.title",
+			"description": "../../common/advices/pull_request/change"
+		},
+		{
+			"id": "50Uv1tjEAXW5rPYQbE8jr",
+			"title": "common.pull_request.advice_items.other.title",
+			"description": "../../common/advices/pull_request/other"
+		}
+	],
+	"prerequisiteKnowledge": {
+		"accessLimitedMarkdown": "./breadth_first_search/prerequisite_knowledge/access_limited",
+		"taskIds": [
+			"_z2u45qMAiAoBj8qo5uDH" // ts_lint_and_format
+		]
+	},
+	"lifecycleStages": {
+		"development": "active",
+		"staging": "active",
+		"production": "active"
+	},
+	"arielOption": {
+		"setUpCommands": [
+			{
+				"commandLine": "npm clean-install"
+			}
+		]
+	},
+	"organization": {
+		"type": "official",
+		"name": "common.organization.official"
+	}
 }

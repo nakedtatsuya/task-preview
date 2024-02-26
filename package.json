@@ -38,10 +38,12 @@
     "compile-tests": "tsc -p . --outDir out",
     "watch-tests": "tsc -p . -w --outDir out",
     "pretest": "npm run compile-tests && npm run compile && npm run lint",
-    "lint": "eslint src --ext ts",
+    "lint": "@biomejs/biome check .",
+    "format": "npx @biomejs/biome check --apply ./**/*.{ts,js}",
     "test": "vscode-test"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.5.3",
     "@types/mocha": "^10.0.6",
     "@types/node": "18.x",
     "@types/vscode": "^1.86.0",

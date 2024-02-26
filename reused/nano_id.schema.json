@@ -1,7 +1,7 @@
 {
-  "$id": "https://path.progate.com/json_schemas/nano_id",
-  "title": "NanoId",
-  "description": "21文字のNanoId",
-  "type": "string",
-  "pattern": "^[a-zA-Z0-9_-]{21}$"
+	"$id": "https://path.progate.com/json_schemas/nano_id",
+	"title": "NanoId",
+	"description": "21文字のNanoId",
+	"type": "string",
+	"pattern": "^[a-zA-Z0-9_-]{21}$"
 }

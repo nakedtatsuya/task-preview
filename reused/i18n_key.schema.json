@@ -1,7 +1,7 @@
 {
-  "$id": "https://path.progate.com/json_schemas/i18n_key",
-  "title": "i18nKey",
-  "description": "localizeされた文言の翻訳ファイル内のキー",
-  "type": "string",
-  "pattern": "[a-z._]+"
+	"$id": "https://path.progate.com/json_schemas/i18n_key",
+	"title": "i18nKey",
+	"description": "localizeされた文言の翻訳ファイル内のキー",
+	"type": "string",
+	"pattern": "[a-z._]+"
 }
